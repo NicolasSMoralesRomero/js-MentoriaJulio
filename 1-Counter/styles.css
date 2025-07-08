@@ -46,3 +46,8 @@ body {
     background: #e0e0e0;
     transform: scale(1.05);
   }
+
+  .btn:disabled{
+    opacity: .9;
+    cursor: not-allowed;
+  }
